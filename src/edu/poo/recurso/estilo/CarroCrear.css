@@ -1,0 +1,20 @@
+/* Cajas de texto */
+.text-field{
+    -fx-background-color:  white;
+}
+.text-field:focused {
+    /*-fx-text-fill: #26B811;*/
+    -fx-border-color: #fbff0a;
+    -fx-background-color:  #EDEDED;
+}
+
+/* Textarea para la descripcion del carro */
+.text-area:focused {
+    /*-fx-text-fill:  #26B811;*/
+    -fx-border-color: #fbff0a;
+    -fx-background-color: white;
+}
+
+.text-area:focused .content {
+    -fx-background-color:  #EDEDED;
+}
